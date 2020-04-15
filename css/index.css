@@ -3,7 +3,9 @@
     box-sizing: border-box;
     
   }
-  
+
+
+
   .column {
     float: left;
     padding: 10px;
@@ -34,16 +36,30 @@
 
 
   .column.image{
+     /* using this margin to keep the content of this div above the footer when this section extends */
+      margin-bottom:25px; 
       width: 30%;
-      background-color: #dfd;      
+
+      /* placeholder color*/
+      background-color: #dfd;  
+         
   }
   .column.image img{
     width: 100%;
   }
+.info h1{
+    text-align: center;
+}
+
 
   .column.description{
+    /* using this margin to keep the content of this div above the footer when this section extends */
+    margin-bottom:25px; 
     width: 70%;
+    /* placeholder color*/
     background-color: #fdd;
+       
+    
     
 }
   
@@ -73,7 +89,6 @@
   
   .footer {
     position: fixed;
-    left: 0;
     bottom: 0;
     width: 100%;
     background-color: #ddd;
